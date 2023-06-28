@@ -1,7 +1,10 @@
-import Hero from "../components/Hero"
+import React from "react";
+import ContestScreen from "./contestScreen";
 const HomeScreen =()=> {
     return (
-        <Hero />
+        <div>
+            <ContestScreen></ContestScreen>
+        </div>
     )
 }
 
